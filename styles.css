@@ -1,15 +1,15 @@
-
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body{
 /*  overflow: scroll;*/
   background-color: #c0c0c0;
   width: 1348px;
-  height: 100%;
+/*  height: 100%;*/
   font-size: 16px;
 }
 
@@ -20,7 +20,7 @@ body{
 
 nav{
   /*background-color: #000000;*/
-  height: 50px;
+/*  height: 50px;*/
   position: absolute;
   display: flex;
   justify-content: center;
@@ -85,9 +85,10 @@ nav{
 
 header{
   width: 100%;
-  height: 638px;
+  /*height: 638px;*/
   display: flex;
   justify-content: flex-start;
+  margin-bottom: -150px;
   /*background-image: url(images/dark2.jpg);*/
 /*  border: 5px solid green;*/
 
@@ -95,15 +96,6 @@ header{
 
 header > img{
   width: 100%;
-}
-
-.nome{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.nome li{
-  list-style: none;
 }
 
 header > h1{
@@ -157,7 +149,7 @@ section{
 
 #about_me > h2{
   position: relative;
-  left: -250px;
+  left: -248px;
 }
 
 section > h2{
@@ -212,15 +204,21 @@ footer > h4{
 }
 
 
-@media only screen and (max-width:400px){
+@media only screen and (min-width: 320px) and (max-width:425px){
   #about_me{
-    width: 300px;
-    margin-bottom: 1px;
+    width: 100%;
+    position: relative;
+    top: 200px;
   }
 
   #about_me > h2{
-    margin-left: 240px;
-    margin-bottom: 70px;
+    position: relative;
+    left: -600px;
+    margin-bottom: -30px;
+  }
+
+  #about_me > p{
+    margin-right: 60px;
   }
 
   .informazioni{
@@ -229,41 +227,42 @@ footer > h4{
   }
 
   section{
-    width: 30%;
+    width: 100%;
     margin-top: -50px;
     margin-left: -30px;
   }
 
   #future{
-    width: 30%;
+    width: 100%;
     position: relative;
     left: 30px;
 
   }
 
+
   footer{
-    width: 400px;
+    width: 100%;
     margin-left: 0px;
   }
 
   header{
-    width: 400px;
-    margin-bottom: -250px;
+    width: 100%;
+    margin-bottom: -350px;
   }
 
   header > h1{
     display: flex;
     position: relative;
-    top:-120px;
+    top:-400px;
     margin-left: -25px;
-    font-size: 15px;
+    font-size: 3.125em;
   }
   header > p{
     display: flex;
     position: relative;
-    top:-100px;
+    top:-400px;
     margin-left: -30px;
-    font-size: 10px;
+    font-size: 1.875em;
   }
 
 
@@ -299,15 +298,21 @@ footer > h4{
   }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px){
+@media only screen and (min-width: 426px) and (max-width: 960px){
   #about_me{
-    width: 30%;
-    margin-bottom: 1px;
+    width: 100%;
+    position: relative;
+    top: 200px;
   }
 
   #about_me > h2{
-    margin-left: 240px;
-    margin-bottom: 70px;
+    position: relative;
+    left: -600px;
+    margin-bottom: -30px;
+  }
+
+  #about_me > p{
+    margin-right: 30px;
   }
 
   .informazioni{
@@ -317,41 +322,41 @@ footer > h4{
   }
 
   section{
-    width: 30%;
+    width: 100%;
     margin-top: -50px;
     margin-left: -30px;
   }
 
   #future{
-    width: 35%;
+    width: 100%;
     position: relative;
     left: 30px;
 
   }
 
   footer{
-    width: 40%;
+    width: 100%;
     margin-left: 0px;
   }
 
   header{
-    width: 40%;
-    margin-bottom: -250px;
+    width: 100%;
+    margin-bottom: -350px;
   }
 
   header > h1{
     display: flex;
     position: relative;
-    top:-120px;
+    top:-400px;
     margin-left: -25px;
-    font-size: 20px;
+    font-size: 3.125em;
   }
   header > p{
     display: flex;
     position: relative;
-    top:-100px;
+    top:-400px;
     margin-left: -30px;
-    font-size: 15px;
+    font-size: 1.875em;
   }
 
   header > img{
