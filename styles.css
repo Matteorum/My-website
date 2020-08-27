@@ -207,16 +207,17 @@ footer > h4{
     width: 100%;
     position: relative;
     top: 200px;
+    left: 20px;
   }
 
   #about_me > h2{
     position: relative;
-    left: -600px;
+    left: -648px;
     margin-bottom: -30px;
   }
 
   #about_me > p{
-    margin-right: 60px;
+    margin-right: 200px;
   }
 
   .informazioni{
@@ -230,13 +231,19 @@ footer > h4{
     margin-left: -30px;
   }
 
+  .w3-container{
+    margin-right: 170px;
+  }
+
   #future{
     width: 100%;
     position: relative;
     left: 30px;
-
   }
 
+ .contenitore{
+   margin-right: 200px;
+ }
 
   footer{
     width: 100%;
@@ -301,16 +308,17 @@ footer > h4{
     width: 100%;
     position: relative;
     top: 200px;
+    left: 20px;
   }
 
   #about_me > h2{
     position: relative;
-    left: -600px;
+    left: -648px;
     margin-bottom: -30px;
   }
 
   #about_me > p{
-    margin-right: 30px;
+    margin-right: 200px;
   }
 
   .informazioni{
@@ -325,11 +333,19 @@ footer > h4{
     margin-left: -30px;
   }
 
+  .w3-container{
+    margin-right: 170px;
+  }
+
   #future{
     width: 100%;
     position: relative;
     left: 30px;
 
+  }
+
+  .contenitore{
+    margin-right: 200px;
   }
 
   footer{
