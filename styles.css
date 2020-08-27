@@ -7,7 +7,7 @@
 
 body{
   background-color: #c0c0c0;
-  width: 1348px;
+  width: 1440px;
   font-size: 16px;
 }
 
@@ -115,7 +115,7 @@ header > p{
 }
 
 section{
-  width: 640px;
+  width: 40%;
   height: 480px;
   display: flex;
   position: relative;
@@ -125,15 +125,16 @@ section{
 }
 
 #about_me{
-  width: 640px;
+  width: 40%;
   height: 480px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
   margin-top: 60px;
-  left: 20px;
+  left: 60px;
   margin-bottom: auto;
+  margin-right: 80px;
 
 }
 
@@ -145,7 +146,7 @@ section{
 
 #about_me > h2{
   position: relative;
-  left: -248px;
+  left: -216px;
 }
 
 section > h2{
@@ -155,10 +156,10 @@ section > h2{
 }
 
 #future{
-  width: 800px;
+  width: 70%;
   height: 400px;
   position: relative;
-  left: 300px;
+  left: 180px;
   margin-bottom: 0px;
   top: -50px;
 }
@@ -387,4 +388,49 @@ footer > h4{
     left: 20px;
   }
 
+  }
+
+  @media only screen and (min-width: 1441px ) and (max-width: 1980px){
+
+    body{
+      width: 1980px;
+    }
+
+    #about_me{
+      position: relative;
+      left: 100px;
+      margin-right: 200px;
+    }
+
+    #about_me > h2{
+      font-size: 50px;
+      position: relative;
+      left: -272px;
+      margin-bottom: 90px;
+    }
+
+    #about_me > p{
+      font-size: 20px;
+    }
+
+    section > h2{
+       font-size: 50px;
+    }
+
+   #future{
+     position: relative;
+     left: 300px;
+   }
+
+   #future >h2{
+     font-size: 50px;
+   }
+
+   .linguaggio{
+     font-size: 20px;
+   }
+
+   .futuro{
+     font-size: 20px;
+   }
   }
