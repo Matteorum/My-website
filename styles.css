@@ -1,0 +1,388 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+/*  overflow: scroll;*/
+  background-color: #c0c0c0;
+  width: 1348px;
+  height: 100%;
+  font-size: 16px;
+}
+
+.page{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+nav{
+  /*background-color: #000000;*/
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, sans-serif;
+  width: 100%;
+/*  border: 5px solid red;*/
+}
+
+.riferimenti{
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 15px 10px;
+  font-size: 1.064em;
+}
+
+.riferimenti:first-of-type{
+  margin-left: 55px;
+}
+
+.sezioni{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sezioni > li{
+  list-style: none;
+  margin-right: 25px;
+}
+
+
+
+.riferimenti a:visited{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.riferimenti a:link{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.riferimenti a:hover{
+  text-decoration: underline;
+  box-sizing: 30px;
+}
+
+.social{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 950px;
+  top:-40px;
+}
+
+.social li{
+  display: inline;
+  list-style: none;
+  margin-right: 17px;
+}
+
+header{
+  width: 100%;
+  height: 638px;
+  display: flex;
+  justify-content: flex-start;
+  /*background-image: url(images/dark2.jpg);*/
+/*  border: 5px solid green;*/
+
+}
+
+header > img{
+  width: 100%;
+}
+
+.nome{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nome li{
+  list-style: none;
+}
+
+header > h1{
+   color: white;
+   position: relative;
+   top: -430px;
+   left: 60px;
+   font-size: 3.125em;
+  /* background-color: #7fffd4;*/
+   padding: 5px;
+   margin: 1px;
+}
+
+header > p{
+  color: white;
+  position: relative;
+  left: 70px;
+  top: -420px;
+  font-size: 1.5em;
+  margin: 1px;
+}
+
+section{
+  width: 640px;
+  height: 480px;
+  display: flex;
+  position: relative;
+  left: 40px;
+  margin-top: 60px;
+
+}
+
+#about_me{
+  width: 640px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin-top: 60px;
+  left: 20px;
+  margin-bottom: auto;
+
+}
+
+#about_me > p{
+  position: relative;
+  top: -125px;
+  text-align: justify;
+}
+
+#about_me > h2{
+  position: relative;
+  left: -250px;
+}
+
+section > h2{
+  position: relative;
+  left: 13px;
+}
+
+#future{
+  width: 800px;
+  height: 400px;
+  position: relative;
+  left: 300px;
+  margin-bottom: 0px;
+  top: -50px;
+}
+
+
+
+
+footer{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+footer > p{
+  color: white;
+  display: flex;
+  position: relative;
+  left: 250px;
+}
+
+footer > a{
+  color: white
+}
+
+footer > h4{
+  color: white;
+  position: relative;
+  left: 250px;
+}
+
+.informazioni{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width:400px){
+  #about_me{
+    width: 300px;
+    margin-bottom: 1px;
+  }
+
+  #about_me > h2{
+    margin-left: 240px;
+    margin-bottom: 70px;
+  }
+
+  .informazioni{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section{
+    width: 30%;
+    margin-top: -50px;
+    margin-left: -30px;
+  }
+
+  #future{
+    width: 30%;
+    position: relative;
+    left: 30px;
+
+  }
+
+  footer{
+    width: 400px;
+    margin-left: 0px;
+  }
+
+  header{
+    width: 400px;
+    margin-bottom: -250px;
+  }
+
+  header > h1{
+    display: flex;
+    position: relative;
+    top:-120px;
+    margin-left: -25px;
+    font-size: 15px;
+  }
+  header > p{
+    display: flex;
+    position: relative;
+    top:-100px;
+    margin-left: -30px;
+    font-size: 10px;
+  }
+
+
+    header > img{
+      width: 100%;
+    }
+
+  .social{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 330px;
+    top:-40px;
+  }
+
+  .social li{
+    display: inline;
+    list-style: none;
+    margin-right: 17px;
+  }
+
+  footer > p{
+    color: white;
+    display: flex;
+    position: relative;
+    left: 20px;
+  }
+
+  footer > h4{
+    color: white;
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+  #about_me{
+    width: 30%;
+    margin-bottom: 1px;
+  }
+
+  #about_me > h2{
+    margin-left: 240px;
+    margin-bottom: 70px;
+  }
+
+  .informazioni{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  section{
+    width: 30%;
+    margin-top: -50px;
+    margin-left: -30px;
+  }
+
+  #future{
+    width: 35%;
+    position: relative;
+    left: 30px;
+
+  }
+
+  footer{
+    width: 40%;
+    margin-left: 0px;
+  }
+
+  header{
+    width: 40%;
+    margin-bottom: -250px;
+  }
+
+  header > h1{
+    display: flex;
+    position: relative;
+    top:-120px;
+    margin-left: -25px;
+    font-size: 20px;
+  }
+  header > p{
+    display: flex;
+    position: relative;
+    top:-100px;
+    margin-left: -30px;
+    font-size: 15px;
+  }
+
+  header > img{
+    width: 100%;
+  }
+
+  .social{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 330px;
+    top:-40px;
+  }
+
+  .social li{
+    display: inline;
+    list-style: none;
+    margin-right: 17px;
+  }
+
+  footer > p{
+    color: white;
+    display: flex;
+    position: relative;
+    left: 20px;
+  }
+
+  footer > h4{
+    color: white;
+    position: relative;
+    left: 20px;
+  }
+
+  }
